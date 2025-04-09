@@ -1,1 +1,2 @@
 # projekt-wytrychy
+nie
