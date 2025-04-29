@@ -11,11 +11,11 @@
 <body>
     <header>
         <div class="container">
-            <div class="brand">
-                <div class="logo-container">
-                    <img src="logo.jpg" alt="" class="logo">
+            <div class="marka">
+                <div class="logo">
+                    <img src="logo.jpg" alt="Logo Marki" class="logo">
                 </div>
-                <h1 class="site-name">Zrób się na Krzaka!</h1>
+                <h1>Zrób się na Krzaka!</h1>
             </div>
             <nav>
                 <ul>
@@ -31,14 +31,14 @@
         <div class="container">
             <h2>Piękno jest w Twoim zasięgu</h2>
             <p>Profesjonalny salon kosmetyczny w sercu miasta</p>
-            <a href="#kontakt" class="btn">Umów wizytę</a>
+            <a href="#kontakt" class="przycisk">Umów wizytę</a>
         </div>
     </section>
 
-    <section id="o-nas" class="about">
+    <section id="o-nas">
         <div class="container">
             <h2>O naszym salonie</h2>
-            <div class="flex-row">
+            <div id="o-nas">
                 <p>Salon "Zrób się na Krzaka!" to miejsce, gdzie każda osoba może poczuć się wyjątkowo. Nasz zespół doświadczonych kosmetyczek dba o najwyższą jakość usług i komfort klientów. 
                 Wykorzystujemy tylko sprawdzone, wysokiej jakości produkty, aby zapewnić najlepsze efekty zabiegów.</p>
                 <img src="salon.jpg" alt="" class="zdjecie-o-nas">
@@ -46,23 +46,23 @@
         </div>
     </section>
 
-    <section id="uslugi" class="services">
+    <section id="uslugi">
         <div class="container">
             <h2>Nasze usługi</h2>
-            <div class="grid">
-                <div class="service-card">
+            <div id="uslugi-siatka">
+                <div class="usluga">
                     <h3>Zabiegi na twarz</h3>
                     <p>Profesjonalne zabiegi pielęgnacyjne dla każdego typu skóry</p>
                 </div>
-                <div class="service-card">
+                <div class="usluga">
                     <h3>Manicure</h3>
                     <p>Klasyczny, hybrydowy i żelowy manicure w różnych stylach</p>
                 </div>
-                <div class="service-card">
+                <div class="usluga">
                     <h3>Pedicure</h3>
                     <p>Kompleksowa pielęgnacja stóp i stylizacja paznokci</p>
                 </div>
-                <div class="service-card">
+                <div class="usluga">
                     <h3>Zabiegi na ciało</h3>
                     <p>Masaże, peelingi i inne zabiegi relaksacyjne</p>
                 </div>
@@ -71,11 +71,11 @@
     </section>
 
 
-    <section id="kontakt" class="contact">
+    <section id="kontakt">
         <div class="container">
             <h2>Kontakt</h2>
-            <div class="flex-row">
-                <div class="contact-info">
+            <div id="kontakt">
+                <div>
                     <h3>Salon kosmetyczny "Zrób się na Krzaka!"</h3>
                     <p><strong>Adres:</strong> ul. Przykładowa 123, 00-000 Warszawa</p>
                     <p><strong>Telefon:</strong> 123 456 789</p>
@@ -85,30 +85,26 @@
                     <p>Sobota: 10:00 - 16:00</p>
                     <p>Niedziela: Zamknięte</p>
                 </div>
-                <div class="contact-form">
-                    <form>
-                        <input type="text" placeholder="Imię i nazwisko" required>
-                        <input type="email" placeholder="Adres email" required>
-                        <input type="tel" placeholder="Numer telefonu">
-                        <select>
-                            <option value="" disabled selected>Wybierz usługę</option>
-                            <option value="twarz">Zabiegi na twarz</option>
-                            <option value="manicure">Manicure</option>
-                            <option value="pedicure">Pedicure</option>
-                            <option value="cialo">Zabiegi na ciało</option>
-                        </select>
-                        <textarea placeholder="Wiadomość"></textarea>
-                        <button type="submit" class="btn">Wyślij wiadomość</button>
-                    </form>
-                </div>
+                <form>
+                    <input type="text" placeholder="Imię i nazwisko" required>
+                    <input type="email" placeholder="Adres email" required>
+                    <input type="tel" placeholder="Numer telefonu">
+                    <select>
+                        <option value="" disabled selected>Wybierz usługę</option>
+                        <option value="twarz">Zabiegi na twarz</option>
+                        <option value="manicure">Manicure</option>
+                        <option value="pedicure">Pedicure</option>
+                        <option value="cialo">Zabiegi na ciało</option>
+                    </select>
+                    <textarea placeholder="Wiadomość"></textarea>
+                    <button type="submit" class="przycisk">Wyślij wiadomość</button>
+                </form>
             </div>
         </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2023 Salon Kosmetyczny "Zrób się na Krzaka!". Wszelkie prawa zastrzeżone.</p>
-        </div>
+        <p>&copy; 2025 Salon Kosmetyczny "Zrób się na Krzaka!". Wszelkie prawa zastrzeżone.</p>
     </footer>
 </body>
 </html>
